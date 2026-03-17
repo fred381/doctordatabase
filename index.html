@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Little Green Book — by Hamilton George Care</title>
+  <meta name="description" content="Trusted recommendations, curated with care. A premium adviser directory by Hamilton George Care." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">
+        <span class="nav-brand-title">The Little Green Book</span>
+        <span class="nav-brand-subtitle">by Hamilton George Care</span>
+      </a>
+      <button class="nav-mobile-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#directory">Directory</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Get in Touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-monogram">HG</div>
+      <h1 class="hero-title">The Little Green Book</h1>
+      <p class="hero-subtitle">by Hamilton George Care</p>
+      <p class="hero-tagline">Trusted recommendations, curated with care.</p>
+      <a href="#directory" class="hero-cta">Explore the Directory</a>
+    </div>
+  </header>
+
+  <!-- Directory Section -->
+  <section class="directory" id="directory">
+    <div class="container">
+      <div class="directory-header">
+        <h2 class="section-title">Our Curated Directory</h2>
+        <p class="section-description">
+          Every adviser in The Little Green Book has been personally vetted and recommended
+          by Hamilton George Care for their exceptional standard of service.
+        </p>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Search by name or organisation..."
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="category-tabs" id="categoryTabs">
+        <!-- Tabs rendered by JS -->
+      </div>
+
+      <!-- Results Count -->
+      <p class="results-count" id="resultsCount"></p>
+
+      <!-- Adviser Card Grid -->
+      <div class="card-grid" id="cardGrid">
+        <!-- Cards rendered by JS -->
+      </div>
+
+      <!-- No Results -->
+      <div class="no-results" id="noResults" style="display:none;">
+        <p>No advisers found matching your search.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-text">
+          <h2 class="section-title">Why The Little Green Book?</h2>
+          <p>
+            When it comes to the health and wellbeing of those you love, only the very best will do.
+            The Little Green Book is our hand-picked directory of outstanding medical professionals
+            and specialists — every one recommended with confidence by the Hamilton George Care team.
+          </p>
+          <p>
+            We understand that finding the right adviser can feel overwhelming. Our directory
+            takes the guesswork out of the equation, connecting high-net-worth families with
+            practitioners who share our commitment to excellence, discretion, and genuine care.
+          </p>
+        </div>
+        <div class="about-values">
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3>Personally Vetted</h3>
+            <p>Every listing is reviewed and approved by our care team.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+            </div>
+            <h3>Care-Centred</h3>
+            <p>Selected for warmth and patient focus, not just clinical skill.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+            </div>
+            <h3>Trusted by Families</h3>
+            <p>Recommended by families who have experienced their care first-hand.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-monogram">HG</div>
+          <span class="footer-title">The Little Green Book</span>
+          <span class="footer-subtitle">by Hamilton George Care</span>
+          <p class="footer-tagline">Premium live-in care, thoughtfully delivered.</p>
+        </div>
+        <div class="footer-contact">
+          <h3>Get in Touch</h3>
+          <p><a href="tel:03304702866">0330 470 2866</a></p>
+          <p><a href="https://hamiltongeorgecare.com" target="_blank" rel="noopener">hamiltongeorgecare.com</a></p>
+        </div>
+        <div class="footer-links">
+          <h3>Directory</h3>
+          <ul id="footerCategories">
+            <!-- Rendered by JS -->
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hamilton George Care. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Profile Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close profile">&times;</button>
+      <div class="modal-content" id="modalContent">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
