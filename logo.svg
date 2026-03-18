@@ -1,14 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" fill="none">
-  <!-- HG Monogram Box -->
-  <rect x="20" y="10" width="72" height="160" rx="2" stroke="#C8C4A9" stroke-width="2.5" fill="none"/>
-  <!-- Divider line -->
-  <line x1="20" y1="90" x2="92" y2="90" stroke="#C8C4A9" stroke-width="2"/>
-  <!-- H letter -->
-  <text x="56" y="68" font-family="'Playfair Display', Georgia, serif" font-size="58" font-weight="400" fill="#F5F0E8" text-anchor="middle" dominant-baseline="central">H</text>
-  <!-- G letter -->
-  <text x="56" y="140" font-family="'Playfair Display', Georgia, serif" font-size="58" font-weight="400" fill="#F5F0E8" text-anchor="middle" dominant-baseline="central">G</text>
-  <!-- Hamilton George Care text -->
-  <text x="120" y="62" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="400" fill="#F5F0E8">Hamilton</text>
-  <text x="120" y="115" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="400" fill="#F5F0E8">George</text>
-  <text x="120" y="168" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="400" fill="#F5F0E8">Care</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 180" fill="none">
+  <!-- HG Monogram Box - tall narrow rectangle with rounded corners -->
+  <rect x="16" y="8" width="76" height="164" rx="3" ry="3" stroke="#C8C4A9" stroke-width="2" fill="none"/>
+  <!-- Inner border for double-line effect -->
+  <rect x="20" y="12" width="68" height="156" rx="2" ry="2" stroke="#C8C4A9" stroke-width="0.8" fill="none"/>
+  <!-- Horizontal divider between H and G -->
+  <line x1="20" y1="90" x2="88" y2="90" stroke="#C8C4A9" stroke-width="1.5"/>
+  <!-- H letter - large serif -->
+  <text x="54" y="62" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="56" font-weight="400" fill="#F5F0E8" text-anchor="middle" dominant-baseline="central">H</text>
+  <!-- G letter - large serif -->
+  <text x="54" y="136" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="56" font-weight="400" fill="#F5F0E8" text-anchor="middle" dominant-baseline="central">G</text>
+  <!-- Hamilton George Care text - stacked, large serif -->
+  <text x="125" y="60" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="52" font-weight="400" fill="#F5F0E8" letter-spacing="1">Hamilton</text>
+  <text x="125" y="116" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="52" font-weight="400" fill="#F5F0E8" letter-spacing="1">George</text>
+  <text x="125" y="172" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="52" font-weight="400" fill="#F5F0E8" letter-spacing="1">Care</text>
 </svg>
