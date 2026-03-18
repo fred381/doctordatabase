@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" fill="none">
+  <!-- HG Monogram Box -->
+  <rect x="20" y="10" width="72" height="160" rx="2" stroke="#C8C4A9" stroke-width="2.5" fill="none"/>
+  <!-- Divider line -->
+  <line x1="20" y1="90" x2="92" y2="90" stroke="#C8C4A9" stroke-width="2"/>
+  <!-- H letter -->
+  <text x="56" y="68" font-family="'Playfair Display', Georgia, serif" font-size="58" font-weight="400" fill="#F5F0E8" text-anchor="middle" dominant-baseline="central">H</text>
+  <!-- G letter -->
+  <text x="56" y="140" font-family="'Playfair Display', Georgia, serif" font-size="58" font-weight="400" fill="#F5F0E8" text-anchor="middle" dominant-baseline="central">G</text>
+  <!-- Hamilton George Care text -->
+  <text x="120" y="62" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="400" fill="#F5F0E8">Hamilton</text>
+  <text x="120" y="115" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="400" fill="#F5F0E8">George</text>
+  <text x="120" y="168" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="400" fill="#F5F0E8">Care</text>
+</svg>
