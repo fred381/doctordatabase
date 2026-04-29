@@ -95,7 +95,7 @@ const ADVISERS = [
     extendedBio: 'Dr Inaki Bovill is a respected consultant in geriatric medicine practising within HCA Healthcare UK at Chelsea & Westminster. His practice is built around the realities of caring for patients with multiple, interacting conditions — comprehensive assessment, falls and frailty management, dementia and delirium care, polypharmacy review and rehabilitation. Inaki is valued for his attention to detail and his commitment to working closely with families, primary care and professional carers to design care plans that genuinely sustain quality of life at home.',
   },
   {
-    name: 'Dr Iona Cobb',
+    name: 'Iona Cobb',
     organisation: 'The Sloane Street Surgery',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -103,7 +103,7 @@ const ADVISERS = [
     extendedBio: 'Dr Iona Cobb practises at The Sloane Street Surgery (82 Sloane Street, SW1X), one of London\'s most respected private GP practices. She is widely valued for her ability to manage the layered, long-term needs of patients living with chronic illness or requiring care at home — from polypharmacy review and cardiovascular risk management to coordinating with consultants, hospital teams and live-in carers. Iona\'s discreet, continuity-led approach is particularly reassuring for clients who depend on a single, dependable point of contact across an increasingly complex healthcare landscape.',
   },
   {
-    name: 'Dr Theo Criswell',
+    name: 'Theo Criswell',
     organisation: 'Criswell Medical Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -111,7 +111,7 @@ const ADVISERS = [
     extendedBio: 'Dr Theo Criswell is one of the longest-serving private GPs in central London, based at Sloane Square (SW1W). His enduring relationships with patients — many spanning thirty years or more — are invaluable when continuity of care matters most: managing chronic illness, supporting recovery at home, or navigating the layered needs of someone receiving live-in care. Theo is admired for his old-school continuity of care, willingness to make house calls, and ability to handle the full breadth of medical concerns — from frailty and cognitive change to end-of-life planning — with quiet authority and warmth.',
   },
   {
-    name: 'Dr Angela Rai',
+    name: 'Angela Rai',
     organisation: 'The London General Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -119,7 +119,7 @@ const ADVISERS = [
     extendedBio: 'Dr Angela Rai practises at The London General Practice (Harley Street, W1), a flagship private GP practice known for executive health assessments and concierge-level medicine. Angela is particularly respected for her work with patients who require ongoing care, where her detailed health reviews help anticipate complications, monitor chronic conditions — heart disease, diabetes, osteoporosis, early cognitive change — and keep care plans on track. Patients describe her as calm, deeply knowledgeable and refreshingly easy to talk to, qualities that make her a natural choice for clients and the families supporting them in seeking proactive, joined-up care.',
   },
   {
-    name: 'Dr Tim Lebens',
+    name: 'Tim Lebens',
     organisation: 'HCA Healthcare UK',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -127,7 +127,7 @@ const ADVISERS = [
     extendedBio: 'Dr Tim Lebens is a highly experienced private GP working within HCA Healthcare UK in St John\'s Wood (NW8), with rapid access to The Wellington Hospital and HCA\'s wider consultant network. His strength is in pulling together fragmented care for patients managing multiple conditions — orchestrating cardiology, oncology and orthopaedic input under one trusted GP relationship. Tim is known for his careful listening, his willingness to visit at home when needed, and his thoughtful coordination of medication, screening and rehabilitation, making him a steady, reassuring presence for clients receiving care and the families and carers around them.',
   },
   {
-    name: 'Dr Carolyn Barshall',
+    name: 'Carolyn Barshall',
     organisation: 'Chelsea General Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -135,7 +135,7 @@ const ADVISERS = [
     extendedBio: 'Dr Carolyn Barshall practises at Chelsea General Practice (2 Lower Sloane Street, SW1W) and is regarded as one of the most attentive private GPs in the area. Her quietly devoted following among patients receiving long-term care reflects her unhurried consultations, careful attention to medication reviews, and genuine interest in the social and family context surrounding illness. Carolyn is particularly skilled at supporting patients through difficult transitions — bereavement, mobility loss, cognitive concerns — with continuity, compassion and discretion that work seamlessly alongside professional carers and family.',
   },
   {
-    name: 'Dr Nicky Naunton-Morgan',
+    name: 'Nicky Naunton-Morgan',
     organisation: 'The Sloane Street Surgery / Marlborough Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -143,7 +143,7 @@ const ADVISERS = [
     extendedBio: 'Dr Nicky Naunton-Morgan is a trusted private GP working at both 82 Sloane Street (SW1X) and Marlborough in Wiltshire. Her dual base is a particular asset for clients with country and London residences, ensuring seamless medical oversight wherever care is being delivered. Nicky is admired for her thorough, family-medicine approach: reviewing medication holistically, coordinating with consultants and live-in carers in both regions, and making house calls when needed. Her warmth, efficiency and continuity of care make her invaluable to clients seeking truly joined-up support across two locations.',
   },
   {
-    name: 'Dr Azhar Janmohamed',
+    name: 'Azhar Janmohamed',
     organisation: 'Dr Azhar / The Sloane Street Surgery',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -151,7 +151,7 @@ const ADVISERS = [
     extendedBio: 'Dr Azhar Janmohamed runs a bespoke private GP service across Knightsbridge and Mayfair, with strong links to The Sloane Street Surgery. He offers the kind of attentive, fully concierge care — same-day visits, direct mobile access, home consultations — that suits clients whose care is being delivered at home and whose families need a single, responsive medical contact. Azhar is recognised for his clinical thoroughness in managing chronic conditions, from hypertension and diabetes to cognitive change, and for the discretion and calm he brings to delicate family conversations about care and capacity.',
   },
   {
-    name: 'Dr Lucy Ansell',
+    name: 'Lucy Ansell',
     organisation: 'Linbury Doctors',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -159,7 +159,7 @@ const ADVISERS = [
     extendedBio: 'Dr Lucy Ansell is a founding partner at Linbury Doctors, a small, highly personal private practice operating across Warwickshire and London. Lucy is known for an old-fashioned, doctor-at-the-door style of medicine that is increasingly rare and especially valued by patients who find clinic visits tiring, impractical or impossible. She combines unhurried home consultations with rigorous medical follow-through — coordinating specialist input, hospital admissions and at-home rehabilitation alongside carers and family — making her an exceptional choice for households seeking dignified, continuous care for a loved one with significant medical needs.',
   },
   {
-    name: 'Dr Charlie Middle',
+    name: 'Charlie Middle',
     organisation: 'Wessex Private General Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -167,15 +167,15 @@ const ADVISERS = [
     extendedBio: 'Dr Charlie Middle leads Wessex Private General Practice, a boutique private GP service spanning Dorset and London. His dual-location practice is particularly attractive to clients whose care is delivered across country estates and town residences, providing a single trusted GP across both. Charlie is known for his proactive approach — regular reviews, falls prevention, careful medication oversight, and rapid access to consultants when needed — alongside a willingness to make home visits that gives families and care teams considerable peace of mind.',
   },
   {
-    name: 'Dr Simmi Kaur',
+    name: 'Simmy Kaur',
     organisation: 'The Nine Clinic',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
-    bio: 'A founding partner of The Nine Clinic, with sites on Harley Street and Sloane Square, Dr Simmi Kaur is widely recognised for her holistic, longevity-focused medicine — a particular draw for patients seeking to maintain wellbeing alongside complex care needs.',
-    extendedBio: 'Dr Simmi Kaur practises at The Nine Clinic (Harley Street, W1 and Sloane Square, SW1W), a private GP and longevity-focused practice she co-founded. Simmi blends evidence-based general practice with preventative and lifestyle medicine — comprehensive screening, hormone health, bone density, cardiovascular and cognitive assessments — which aligns closely with the priorities of clients managing long-term conditions and seeking the best possible quality of life. She is respected for her warm, scientifically rigorous approach and is a strong choice for patients and families who want a proactive medical partner alongside their care arrangements.',
+    bio: 'A founding partner of The Nine Clinic, with sites on Harley Street and Sloane Square, Dr Simmy Kaur is widely recognised for her holistic, longevity-focused medicine — a particular draw for patients seeking to maintain wellbeing alongside complex care needs.',
+    extendedBio: 'Dr Simmy Kaur practises at The Nine Clinic (Harley Street, W1 and Sloane Square, SW1W), a private GP and longevity-focused practice she co-founded. Simmy blends evidence-based general practice with preventative and lifestyle medicine — comprehensive screening, hormone health, bone density, cardiovascular and cognitive assessments — which aligns closely with the priorities of clients managing long-term conditions and seeking the best possible quality of life. She is respected for her warm, scientifically rigorous approach and is a strong choice for patients and families who want a proactive medical partner alongside their care arrangements.',
   },
   {
-    name: 'Dr John O\'Dwyer',
+    name: 'John O\'Dwyer',
     organisation: 'HCA Healthcare / Mayo Clinic Healthcare London',
     category: 'neurology',
     specialty: 'Neurology',
@@ -183,7 +183,7 @@ const ADVISERS = [
     extendedBio: 'Dr John O\'Dwyer is a senior consultant neurologist working at The Lister Hospital (SW1W) and Mayo Clinic Healthcare London. His clinical interests — stroke, transient ischaemic attacks, memory loss, Parkinson\'s disease and other movement disorders — sit at the heart of long-term neurological care. John is known for his careful, methodical assessments, his ability to translate complex investigations into clear guidance for patients and families, and his close collaboration with cardiology, psychiatry and rehabilitation teams. For anyone facing a new diagnosis or planning ongoing care for a loved one, he is a calm, authoritative presence who brings world-class expertise within reach.',
   },
   {
-    name: 'Dr Ben Turner',
+    name: 'Ben Turner',
     organisation: 'HCA Healthcare UK',
     category: 'neurology',
     specialty: 'Neurology',
@@ -191,7 +191,7 @@ const ADVISERS = [
     extendedBio: 'Dr Ben Turner is a leading consultant neurologist practising within HCA Healthcare UK at London Bridge Hospital and The Shard. He has built a strong reputation for the assessment and long-term management of conditions that demand ongoing care — Parkinson\'s disease, essential tremor, gait disturbance, memory disorders and the after-effects of stroke. Patients, families and care teams value his patient, methodical clinical style and his ability to coordinate ongoing care with neuro-rehabilitation, geriatric medicine and primary care, providing the integrated support that patients with chronic neurological disease so often need.',
   },
   {
-    name: 'Dr Daniel Krell',
+    name: 'Daniel Krell',
     organisation: 'HCA Healthcare UK — The Wellington Hospital',
     category: 'oncology',
     specialty: 'Oncology',
@@ -199,7 +199,7 @@ const ADVISERS = [
     extendedBio: 'Dr Daniel Krell is a consultant medical oncologist based at The Wellington Hospital (NW8), HCA Healthcare UK\'s flagship private hospital. He is known for tailoring treatment intensity to the realities of each patient — balancing efficacy against tolerability, comorbidity and quality of life — which is invaluable when cancer treatment must sit alongside ongoing care, frailty or other long-term conditions. Daniel is praised by families and care teams for his clarity, patience and willingness to spend the time needed at every step, from diagnosis through treatment planning to survivorship and palliative care, making him a trusted partner for any patient facing a cancer diagnosis whilst receiving care.',
   },
   {
-    name: 'Dr Prashanth Reddy',
+    name: 'Prashanth Reddy',
     organisation: 'HCA Concierge',
     category: 'geriatric-medicine',
     specialty: 'Geriatric Medicine',
