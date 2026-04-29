@@ -88,6 +88,18 @@ input { font-family: inherit; }
 
 .nav-brand {
   display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo {
+  height: 44px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.nav-brand-text {
+  display: flex;
   flex-direction: column;
   gap: 0;
 }
@@ -183,11 +195,9 @@ input { font-family: inherit; }
 
 .hero-logo {
   display: block;
-  width: 140px;
   height: 140px;
+  width: auto;
   margin: 0 auto 24px;
-  border-radius: 8px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
 }
 
 .hero-subtitle {
@@ -516,9 +526,8 @@ input { font-family: inherit; }
 
 .footer-logo {
   display: block;
-  width: 72px;
   height: 72px;
-  border-radius: 6px;
+  width: auto;
   margin-bottom: 14px;
 }
 
