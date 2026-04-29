@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Hamilton George Care">
+  <rect width="500" height="500" fill="#054226"/>
+  <g fill="none" stroke="#ffffff" stroke-width="4">
+    <path d="M85 120 Q85 110 95 110 H175 V390 H95 Q85 390 85 380 Z"/>
+    <line x1="85" y1="250" x2="175" y2="250"/>
+  </g>
+  <g fill="#ffffff" font-family="'Playfair Display','Times New Roman',Georgia,serif" font-weight="700" text-anchor="middle">
+    <text x="130" y="225" font-size="110">H</text>
+    <text x="130" y="345" font-size="110">G</text>
+  </g>
+  <g fill="#ffffff" font-family="'Playfair Display','Times New Roman',Georgia,serif" font-weight="600">
+    <text x="210" y="215" font-size="70">Hamilton</text>
+    <text x="210" y="295" font-size="70">George</text>
+    <text x="210" y="375" font-size="70">Care</text>
+  </g>
+</svg>

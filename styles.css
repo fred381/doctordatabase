@@ -181,20 +181,13 @@ input { font-family: inherit; }
   z-index: 1;
 }
 
-.hero-monogram {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 72px;
-  height: 72px;
-  border: 2px solid var(--sage);
-  border-radius: 50%;
-  font-family: var(--font-serif);
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--sage);
-  margin-bottom: 24px;
-  letter-spacing: 0.05em;
+.hero-logo {
+  display: block;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 24px;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
 }
 
 .hero-subtitle {
@@ -521,19 +514,12 @@ input { font-family: inherit; }
   border-bottom: 1px solid rgba(200,217,192,0.2);
 }
 
-.footer-monogram {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  border: 2px solid var(--sage);
-  border-radius: 50%;
-  font-family: var(--font-serif);
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--sage);
-  margin-bottom: 12px;
+.footer-logo {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 6px;
+  margin-bottom: 14px;
 }
 
 .footer-title {
