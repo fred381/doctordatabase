@@ -1,5 +1,5 @@
 /* ============================================
-   THE LITTLE GREEN BOOK — Data
+   THE LITTLE GREEN BOOK - Data
    Add new advisers or categories here.
    ============================================ */
 
@@ -36,7 +36,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A partner at Criswell Medical Practice in Sloane Square, Dr Michael Criswell brings rigorous, evidence-based GP care to clients with complex medical needs and ongoing care arrangements.',
-    extendedBio: 'Dr Michael Criswell practises at Criswell Medical Practice (Sloane Square, SW1W), one of central London\'s longest-established private GP groups. He is valued for his clarity, his thoroughness and his unwavering focus on getting the medical detail right — particularly important when patients are managing several chronic conditions, recovering from hospital stays or relying on professional care. Michael is known for his clear communication with families and carers and his commitment to keeping every aspect of a patient\'s care plan working together.',
+    extendedBio: 'Dr Michael Criswell practises at Criswell Medical Practice (Sloane Square, SW1W), one of central London\'s longest-established private GP groups. He is valued for his clarity, his thoroughness and his unwavering focus on getting the medical detail right - particularly important when patients are managing several chronic conditions, recovering from hospital stays or relying on professional care. Michael is known for his clear communication with families and carers and his commitment to keeping every aspect of a patient\'s care plan working together.',
   },
   {
     name: 'Toby Dean',
@@ -52,7 +52,7 @@ const ADVISERS = [
     category: 'neurology',
     specialty: 'Neurology',
     bio: 'CEO and Medical Director of Re:Cognition Health, Dr Emer MacSweeney is a leading neuroradiologist and brain-health specialist at the forefront of memory and cognitive care.',
-    extendedBio: 'Dr Emer MacSweeney founded Re:Cognition Health (Wimpole Street, W1G) and has built it into one of the UK\'s foremost private centres for the assessment and treatment of memory disorders, mild cognitive impairment and Alzheimer\'s disease — including access to leading clinical trials of disease-modifying therapies. For families noticing early changes in a loved one or supporting someone already living with dementia, Emer offers world-class diagnostic precision, clear guidance and a route into the most advanced treatments available, all delivered with characteristic warmth and discretion.',
+    extendedBio: 'Dr Emer MacSweeney founded Re:Cognition Health (Wimpole Street, W1G) and has built it into one of the UK\'s foremost private centres for the assessment and treatment of memory disorders, mild cognitive impairment and Alzheimer\'s disease - including access to leading clinical trials of disease-modifying therapies. For families noticing early changes in a loved one or supporting someone already living with dementia, Emer offers world-class diagnostic precision, clear guidance and a route into the most advanced treatments available, all delivered with characteristic warmth and discretion.',
   },
   {
     name: 'Dominic Paviour',
@@ -60,7 +60,7 @@ const ADVISERS = [
     category: 'neurology',
     specialty: 'Neurology',
     bio: 'A consultant neurologist with HCA Healthcare across central and southwest London, Dr Dominic Paviour specialises in Parkinson\'s disease and other movement disorders that require sustained, coordinated care.',
-    extendedBio: 'Dr Dominic Paviour is a senior consultant neurologist working within HCA Healthcare UK. His specialist expertise in Parkinson\'s disease, dystonia, tremor and other movement disorders makes him particularly important for patients whose care arrangements depend on managing fluctuating symptoms over years. Dominic combines rigorous clinical assessment with a thoughtful, unhurried style — coordinating closely with primary care, geriatric medicine, neuro-rehabilitation and family carers to keep patients as well, as mobile and as independent as possible.',
+    extendedBio: 'Dr Dominic Paviour is a senior consultant neurologist working within HCA Healthcare UK. His specialist expertise in Parkinson\'s disease, dystonia, tremor and other movement disorders makes him particularly important for patients whose care arrangements depend on managing fluctuating symptoms over years. Dominic combines rigorous clinical assessment with a thoughtful, unhurried style - coordinating closely with primary care, geriatric medicine, neuro-rehabilitation and family carers to keep patients as well, as mobile and as independent as possible.',
   },
   {
     name: 'Shahbaz Roshan',
@@ -68,7 +68,7 @@ const ADVISERS = [
     category: 'geriatric-medicine',
     specialty: 'Geriatric Medicine',
     bio: 'A consultant in geriatric medicine within HCA Healthcare UK in London SE1, Dr Shahbaz Roshan takes a holistic, person-centred approach to clients living with frailty and multiple long-term conditions.',
-    extendedBio: 'Dr Shahbaz Roshan is a respected consultant geriatrician based at HCA Healthcare UK in London SE1. His practice is built around the medical realities of patients receiving care — managing frailty, falls, polypharmacy, cognitive change and the interplay of multiple chronic conditions. Shahbaz is particularly valued for his ability to address the physical and emotional dimensions of care together, working closely with families and professional carers to design realistic, dignity-preserving plans that hold up over time.',
+    extendedBio: 'Dr Shahbaz Roshan is a respected consultant geriatrician based at HCA Healthcare UK in London SE1. His practice is built around the medical realities of patients receiving care - managing frailty, falls, polypharmacy, cognitive change and the interplay of multiple chronic conditions. Shahbaz is particularly valued for his ability to address the physical and emotional dimensions of care together, working closely with families and professional carers to design realistic, dignity-preserving plans that hold up over time.',
   },
   {
     name: 'John Janssen',
@@ -76,7 +76,7 @@ const ADVISERS = [
     category: 'neurology',
     specialty: 'Neurology',
     bio: 'A senior consultant neurologist with HCA Healthcare UK at Kings Road and Chiswick, Dr John Janssen brings calm authority and broad clinical experience to patients with neurological conditions requiring long-term care.',
-    extendedBio: 'Dr John Janssen is a distinguished consultant neurologist working within HCA Healthcare UK. His extensive experience across the breadth of clinical neurology — stroke, headache, neurodegenerative disease, neuropathies — makes him a valued source of guidance for patients and families navigating difficult diagnoses. John is known for his methodical, accessible approach and his exceptional ability to coordinate care across specialists, primary care and the home, offering the steady, integrated medical oversight that complex neurological care so often requires.',
+    extendedBio: 'Dr John Janssen is a distinguished consultant neurologist working within HCA Healthcare UK. His extensive experience across the breadth of clinical neurology - stroke, headache, neurodegenerative disease, neuropathies - makes him a valued source of guidance for patients and families navigating difficult diagnoses. John is known for his methodical, accessible approach and his exceptional ability to coordinate care across specialists, primary care and the home, offering the steady, integrated medical oversight that complex neurological care so often requires.',
   },
   {
     name: 'Tim Ladbrooke',
@@ -84,7 +84,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A senior partner at Courtfield Private Practice in South Kensington, Dr Tim Ladbrooke is widely respected for his patient-first private GP care and the support he offers clients with ongoing medical and care needs.',
-    extendedBio: 'Dr Tim Ladbrooke practises at Courtfield Private Practice (South Kensington), where he is known for combining clinical thoroughness with a genuinely warm, attentive style. His patients particularly value his readiness to go the extra mile — house calls, careful medication oversight, direct communication with consultants and carers — when complex needs make medical life difficult to navigate alone. Tim\'s continuity-led approach is well-suited to households where a single trusted GP, working alongside a wider care team, makes all the difference.',
+    extendedBio: 'Dr Tim Ladbrooke practises at Courtfield Private Practice (South Kensington), where he is known for combining clinical thoroughness with a genuinely warm, attentive style. His patients particularly value his readiness to go the extra mile - house calls, careful medication oversight, direct communication with consultants and carers - when complex needs make medical life difficult to navigate alone. Tim\'s continuity-led approach is well-suited to households where a single trusted GP, working alongside a wider care team, makes all the difference.',
   },
   {
     name: 'Inaki Bovill',
@@ -92,7 +92,7 @@ const ADVISERS = [
     category: 'geriatric-medicine',
     specialty: 'Geriatric Medicine',
     bio: 'A consultant geriatrician within HCA Healthcare UK at Chelsea & Westminster, Dr Inaki Bovill brings a thoughtful, modern approach to the care of patients living with frailty and complex medical needs.',
-    extendedBio: 'Dr Inaki Bovill is a respected consultant in geriatric medicine practising within HCA Healthcare UK at Chelsea & Westminster. His practice is built around the realities of caring for patients with multiple, interacting conditions — comprehensive assessment, falls and frailty management, dementia and delirium care, polypharmacy review and rehabilitation. Inaki is valued for his attention to detail and his commitment to working closely with families, primary care and professional carers to design care plans that genuinely sustain quality of life at home.',
+    extendedBio: 'Dr Inaki Bovill is a respected consultant in geriatric medicine practising within HCA Healthcare UK at Chelsea & Westminster. His practice is built around the realities of caring for patients with multiple, interacting conditions - comprehensive assessment, falls and frailty management, dementia and delirium care, polypharmacy review and rehabilitation. Inaki is valued for his attention to detail and his commitment to working closely with families, primary care and professional carers to design care plans that genuinely sustain quality of life at home.',
   },
   {
     name: 'Iona Cobb',
@@ -100,7 +100,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A trusted private GP at The Sloane Street Surgery in Knightsbridge, Dr Iona Cobb is known for her unhurried, intuitive consultations and her genuine attentiveness to patients with ongoing care needs and the families supporting them.',
-    extendedBio: 'Dr Iona Cobb practises at The Sloane Street Surgery (82 Sloane Street, SW1X), one of London\'s most respected private GP practices. She is widely valued for her ability to manage the layered, long-term needs of patients living with chronic illness or requiring care at home — from polypharmacy review and cardiovascular risk management to coordinating with consultants, hospital teams and live-in carers. Iona\'s discreet, continuity-led approach is particularly reassuring for clients who depend on a single, dependable point of contact across an increasingly complex healthcare landscape.',
+    extendedBio: 'Dr Iona Cobb practises at The Sloane Street Surgery (82 Sloane Street, SW1X), one of London\'s most respected private GP practices. She is widely valued for her ability to manage the layered, long-term needs of patients living with chronic illness or requiring care at home - from polypharmacy review and cardiovascular risk management to coordinating with consultants, hospital teams and live-in carers. Iona\'s discreet, continuity-led approach is particularly reassuring for clients who depend on a single, dependable point of contact across an increasingly complex healthcare landscape.',
   },
   {
     name: 'Theo Criswell',
@@ -108,7 +108,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A founding figure at Criswell Medical Practice in Sloane Square, Dr Theo Criswell brings decades of experience as a private family doctor, with a long-standing reputation for supporting patients living with complex, ongoing care needs.',
-    extendedBio: 'Dr Theo Criswell is one of the longest-serving private GPs in central London, based at Sloane Square (SW1W). His enduring relationships with patients — many spanning thirty years or more — are invaluable when continuity of care matters most: managing chronic illness, supporting recovery at home, or navigating the layered needs of someone receiving live-in care. Theo is admired for his old-school continuity of care, willingness to make house calls, and ability to handle the full breadth of medical concerns — from frailty and cognitive change to end-of-life planning — with quiet authority and warmth.',
+    extendedBio: 'Dr Theo Criswell is one of the longest-serving private GPs in central London, based at Sloane Square (SW1W). His enduring relationships with patients - many spanning thirty years or more - are invaluable when continuity of care matters most: managing chronic illness, supporting recovery at home, or navigating the layered needs of someone receiving live-in care. Theo is admired for his old-school continuity of care, willingness to make house calls, and ability to handle the full breadth of medical concerns - from frailty and cognitive change to end-of-life planning - with quiet authority and warmth.',
   },
   {
     name: 'Angela Rai',
@@ -116,7 +116,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A senior GP at The London General Practice on Harley Street, Dr Angela Rai is celebrated for her thorough preventative screenings and her sensitive support of patients managing complex, long-term conditions.',
-    extendedBio: 'Dr Angela Rai practises at The London General Practice (Harley Street, W1), a flagship private GP practice known for executive health assessments and concierge-level medicine. Angela is particularly respected for her work with patients who require ongoing care, where her detailed health reviews help anticipate complications, monitor chronic conditions — heart disease, diabetes, osteoporosis, early cognitive change — and keep care plans on track. Patients describe her as calm, deeply knowledgeable and refreshingly easy to talk to, qualities that make her a natural choice for clients and the families supporting them in seeking proactive, joined-up care.',
+    extendedBio: 'Dr Angela Rai practises at The London General Practice (Harley Street, W1), a flagship private GP practice known for executive health assessments and concierge-level medicine. Angela is particularly respected for her work with patients who require ongoing care, where her detailed health reviews help anticipate complications, monitor chronic conditions - heart disease, diabetes, osteoporosis, early cognitive change - and keep care plans on track. Patients describe her as calm, deeply knowledgeable and refreshingly easy to talk to, qualities that make her a natural choice for clients and the families supporting them in seeking proactive, joined-up care.',
   },
   {
     name: 'Tim Lebens',
@@ -124,7 +124,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'Based at HCA Healthcare UK in St John\'s Wood, Dr Tim Lebens is a leading private GP whose holistic, family-medicine approach is especially valued by patients with complex care needs in north-west London.',
-    extendedBio: 'Dr Tim Lebens is a highly experienced private GP working within HCA Healthcare UK in St John\'s Wood (NW8), with rapid access to The Wellington Hospital and HCA\'s wider consultant network. His strength is in pulling together fragmented care for patients managing multiple conditions — orchestrating cardiology, oncology and orthopaedic input under one trusted GP relationship. Tim is known for his careful listening, his willingness to visit at home when needed, and his thoughtful coordination of medication, screening and rehabilitation, making him a steady, reassuring presence for clients receiving care and the families and carers around them.',
+    extendedBio: 'Dr Tim Lebens is a highly experienced private GP working within HCA Healthcare UK in St John\'s Wood (NW8), with rapid access to The Wellington Hospital and HCA\'s wider consultant network. His strength is in pulling together fragmented care for patients managing multiple conditions - orchestrating cardiology, oncology and orthopaedic input under one trusted GP relationship. Tim is known for his careful listening, his willingness to visit at home when needed, and his thoughtful coordination of medication, screening and rehabilitation, making him a steady, reassuring presence for clients receiving care and the families and carers around them.',
   },
   {
     name: 'Carolyn Barshall',
@@ -132,7 +132,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A long-established private GP at Chelsea General Practice on Lower Sloane Street, Dr Carolyn Barshall is known for her warm, personalised approach and her particular dedication to patients with ongoing care needs.',
-    extendedBio: 'Dr Carolyn Barshall practises at Chelsea General Practice (2 Lower Sloane Street, SW1W) and is regarded as one of the most attentive private GPs in the area. Her quietly devoted following among patients receiving long-term care reflects her unhurried consultations, careful attention to medication reviews, and genuine interest in the social and family context surrounding illness. Carolyn is particularly skilled at supporting patients through difficult transitions — bereavement, mobility loss, cognitive concerns — with continuity, compassion and discretion that work seamlessly alongside professional carers and family.',
+    extendedBio: 'Dr Carolyn Barshall practises at Chelsea General Practice (2 Lower Sloane Street, SW1W) and is regarded as one of the most attentive private GPs in the area. Her quietly devoted following among patients receiving long-term care reflects her unhurried consultations, careful attention to medication reviews, and genuine interest in the social and family context surrounding illness. Carolyn is particularly skilled at supporting patients through difficult transitions - bereavement, mobility loss, cognitive concerns - with continuity, compassion and discretion that work seamlessly alongside professional carers and family.',
   },
   {
     name: 'Nicky Naunton-Morgan',
@@ -148,7 +148,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'Operating between Knightsbridge and Mayfair, Dr Azhar Janmohamed is a sought-after concierge private GP whose discreet, around-the-clock service is particularly suited to clients with complex care arrangements.',
-    extendedBio: 'Dr Azhar Janmohamed runs a bespoke private GP service across Knightsbridge and Mayfair, with strong links to The Sloane Street Surgery. He offers the kind of attentive, fully concierge care — same-day visits, direct mobile access, home consultations — that suits clients whose care is being delivered at home and whose families need a single, responsive medical contact. Azhar is recognised for his clinical thoroughness in managing chronic conditions, from hypertension and diabetes to cognitive change, and for the discretion and calm he brings to delicate family conversations about care and capacity.',
+    extendedBio: 'Dr Azhar Janmohamed runs a bespoke private GP service across Knightsbridge and Mayfair, with strong links to The Sloane Street Surgery. He offers the kind of attentive, fully concierge care - same-day visits, direct mobile access, home consultations - that suits clients whose care is being delivered at home and whose families need a single, responsive medical contact. Azhar is recognised for his clinical thoroughness in managing chronic conditions, from hypertension and diabetes to cognitive change, and for the discretion and calm he brings to delicate family conversations about care and capacity.',
   },
   {
     name: 'Lucy Ansell',
@@ -156,7 +156,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A founder of Linbury Doctors, Dr Lucy Ansell delivers truly bespoke private GP care across Warwickshire and London, with a particular reputation for supporting patients in their own homes.',
-    extendedBio: 'Dr Lucy Ansell is a founding partner at Linbury Doctors, a small, highly personal private practice operating across Warwickshire and London. Lucy is known for an old-fashioned, doctor-at-the-door style of medicine that is increasingly rare and especially valued by patients who find clinic visits tiring, impractical or impossible. She combines unhurried home consultations with rigorous medical follow-through — coordinating specialist input, hospital admissions and at-home rehabilitation alongside carers and family — making her an exceptional choice for households seeking dignified, continuous care for a loved one with significant medical needs.',
+    extendedBio: 'Dr Lucy Ansell is a founding partner at Linbury Doctors, a small, highly personal private practice operating across Warwickshire and London. Lucy is known for an old-fashioned, doctor-at-the-door style of medicine that is increasingly rare and especially valued by patients who find clinic visits tiring, impractical or impossible. She combines unhurried home consultations with rigorous medical follow-through - coordinating specialist input, hospital admissions and at-home rehabilitation alongside carers and family - making her an exceptional choice for households seeking dignified, continuous care for a loved one with significant medical needs.',
   },
   {
     name: 'Charlie Middle',
@@ -164,15 +164,15 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'Founder of Wessex Private General Practice, Dr Charlie Middle works across Dorset and London to deliver concierge-style family medicine, with strong experience in managing the needs of patients receiving care in both rural and city homes.',
-    extendedBio: 'Dr Charlie Middle leads Wessex Private General Practice, a boutique private GP service spanning Dorset and London. His dual-location practice is particularly attractive to clients whose care is delivered across country estates and town residences, providing a single trusted GP across both. Charlie is known for his proactive approach — regular reviews, falls prevention, careful medication oversight, and rapid access to consultants when needed — alongside a willingness to make home visits that gives families and care teams considerable peace of mind.',
+    extendedBio: 'Dr Charlie Middle leads Wessex Private General Practice, a boutique private GP service spanning Dorset and London. His dual-location practice is particularly attractive to clients whose care is delivered across country estates and town residences, providing a single trusted GP across both. Charlie is known for his proactive approach - regular reviews, falls prevention, careful medication oversight, and rapid access to consultants when needed - alongside a willingness to make home visits that gives families and care teams considerable peace of mind.',
   },
   {
     name: 'Simmy Kaur',
     organisation: 'The Nine Clinic',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
-    bio: 'A founding partner of The Nine Clinic, with sites on Harley Street and Sloane Square, Dr Simmy Kaur is widely recognised for her holistic, longevity-focused medicine — a particular draw for patients seeking to maintain wellbeing alongside complex care needs.',
-    extendedBio: 'Dr Simmy Kaur practises at The Nine Clinic (Harley Street, W1 and Sloane Square, SW1W), a private GP and longevity-focused practice she co-founded. Simmy blends evidence-based general practice with preventative and lifestyle medicine — comprehensive screening, hormone health, bone density, cardiovascular and cognitive assessments — which aligns closely with the priorities of clients managing long-term conditions and seeking the best possible quality of life. She is respected for her warm, scientifically rigorous approach and is a strong choice for patients and families who want a proactive medical partner alongside their care arrangements.',
+    bio: 'A founding partner of The Nine Clinic, with sites on Harley Street and Sloane Square, Dr Simmy Kaur is widely recognised for her holistic, longevity-focused medicine - a particular draw for patients seeking to maintain wellbeing alongside complex care needs.',
+    extendedBio: 'Dr Simmy Kaur practises at The Nine Clinic (Harley Street, W1 and Sloane Square, SW1W), a private GP and longevity-focused practice she co-founded. Simmy blends evidence-based general practice with preventative and lifestyle medicine - comprehensive screening, hormone health, bone density, cardiovascular and cognitive assessments - which aligns closely with the priorities of clients managing long-term conditions and seeking the best possible quality of life. She is respected for her warm, scientifically rigorous approach and is a strong choice for patients and families who want a proactive medical partner alongside their care arrangements.',
   },
   {
     name: 'John O\'Dwyer',
@@ -180,7 +180,7 @@ const ADVISERS = [
     category: 'neurology',
     specialty: 'Neurology',
     bio: 'A consultant neurologist at HCA\'s Lister Hospital and Mayo Clinic Healthcare London, Dr John O\'Dwyer is a leading authority on stroke, memory disorders and the neurological conditions that most often require ongoing care.',
-    extendedBio: 'Dr John O\'Dwyer is a senior consultant neurologist working at The Lister Hospital (SW1W) and Mayo Clinic Healthcare London. His clinical interests — stroke, transient ischaemic attacks, memory loss, Parkinson\'s disease and other movement disorders — sit at the heart of long-term neurological care. John is known for his careful, methodical assessments, his ability to translate complex investigations into clear guidance for patients and families, and his close collaboration with cardiology, psychiatry and rehabilitation teams. For anyone facing a new diagnosis or planning ongoing care for a loved one, he is a calm, authoritative presence who brings world-class expertise within reach.',
+    extendedBio: 'Dr John O\'Dwyer is a senior consultant neurologist working at The Lister Hospital (SW1W) and Mayo Clinic Healthcare London. His clinical interests - stroke, transient ischaemic attacks, memory loss, Parkinson\'s disease and other movement disorders - sit at the heart of long-term neurological care. John is known for his careful, methodical assessments, his ability to translate complex investigations into clear guidance for patients and families, and his close collaboration with cardiology, psychiatry and rehabilitation teams. For anyone facing a new diagnosis or planning ongoing care for a loved one, he is a calm, authoritative presence who brings world-class expertise within reach.',
   },
   {
     name: 'Ben Turner',
@@ -188,15 +188,15 @@ const ADVISERS = [
     category: 'neurology',
     specialty: 'Neurology',
     bio: 'A senior consultant neurologist with HCA Healthcare UK at London Bridge and The Shard, Dr Ben Turner has a particular focus on neurological conditions that require sustained, multidisciplinary care, including Parkinson\'s disease and dementia.',
-    extendedBio: 'Dr Ben Turner is a leading consultant neurologist practising within HCA Healthcare UK at London Bridge Hospital and The Shard. He has built a strong reputation for the assessment and long-term management of conditions that demand ongoing care — Parkinson\'s disease, essential tremor, gait disturbance, memory disorders and the after-effects of stroke. Patients, families and care teams value his patient, methodical clinical style and his ability to coordinate ongoing care with neuro-rehabilitation, geriatric medicine and primary care, providing the integrated support that patients with chronic neurological disease so often need.',
+    extendedBio: 'Dr Ben Turner is a leading consultant neurologist practising within HCA Healthcare UK at London Bridge Hospital and The Shard. He has built a strong reputation for the assessment and long-term management of conditions that demand ongoing care - Parkinson\'s disease, essential tremor, gait disturbance, memory disorders and the after-effects of stroke. Patients, families and care teams value his patient, methodical clinical style and his ability to coordinate ongoing care with neuro-rehabilitation, geriatric medicine and primary care, providing the integrated support that patients with chronic neurological disease so often need.',
   },
   {
     name: 'Daniel Krell',
-    organisation: 'HCA Healthcare UK — The Wellington Hospital',
+    organisation: 'HCA Healthcare UK - The Wellington Hospital',
     category: 'oncology',
     specialty: 'Oncology',
     bio: 'A consultant medical oncologist at HCA\'s Wellington Hospital in St John\'s Wood, Dr Daniel Krell is recognised for his compassionate, individualised approach to cancer care for patients with complex care needs.',
-    extendedBio: 'Dr Daniel Krell is a consultant medical oncologist based at The Wellington Hospital (NW8), HCA Healthcare UK\'s flagship private hospital. He is known for tailoring treatment intensity to the realities of each patient — balancing efficacy against tolerability, comorbidity and quality of life — which is invaluable when cancer treatment must sit alongside ongoing care, frailty or other long-term conditions. Daniel is praised by families and care teams for his clarity, patience and willingness to spend the time needed at every step, from diagnosis through treatment planning to survivorship and palliative care, making him a trusted partner for any patient facing a cancer diagnosis whilst receiving care.',
+    extendedBio: 'Dr Daniel Krell is a consultant medical oncologist based at The Wellington Hospital (NW8), HCA Healthcare UK\'s flagship private hospital. He is known for tailoring treatment intensity to the realities of each patient - balancing efficacy against tolerability, comorbidity and quality of life - which is invaluable when cancer treatment must sit alongside ongoing care, frailty or other long-term conditions. Daniel is praised by families and care teams for his clarity, patience and willingness to spend the time needed at every step, from diagnosis through treatment planning to survivorship and palliative care, making him a trusted partner for any patient facing a cancer diagnosis whilst receiving care.',
   },
   {
     name: 'Prashanth Reddy',
@@ -204,14 +204,14 @@ const ADVISERS = [
     category: 'geriatric-medicine',
     specialty: 'Geriatric Medicine',
     bio: 'A consultant geriatrician within the HCA Concierge service, Dr Prashanth Reddy specialises in the holistic medical oversight of patients with complex, multi-layered care needs across The Lister Hospital and London Bridge.',
-    extendedBio: 'Dr Prashanth Reddy is a consultant in geriatric medicine working within HCA Concierge, with bases at The Lister Hospital and London Bridge. His practice is built around the needs of patients living with frailty, multiple long-term conditions, or significant cognitive change — comprehensive medical assessment, falls prevention, dementia and delirium care, polypharmacy review, continence, bone health and end-of-life planning. Prashanth is widely respected for his ability to see the whole person, working closely with families and professional carers to design realistic care plans that preserve independence and dignity. For any patient with multiple, interacting conditions, he is a natural and invaluable point of expert oversight.',
+    extendedBio: 'Dr Prashanth Reddy is a consultant in geriatric medicine working within HCA Concierge, with bases at The Lister Hospital and London Bridge. His practice is built around the needs of patients living with frailty, multiple long-term conditions, or significant cognitive change - comprehensive medical assessment, falls prevention, dementia and delirium care, polypharmacy review, continence, bone health and end-of-life planning. Prashanth is widely respected for his ability to see the whole person, working closely with families and professional carers to design realistic care plans that preserve independence and dignity. For any patient with multiple, interacting conditions, he is a natural and invaluable point of expert oversight.',
   },
   {
     name: 'Prof. June Andrews OBE',
-    organisation: 'Independent Dementia Consultant — National',
+    organisation: 'Independent Dementia Consultant - National',
     category: 'dementia-specialist',
     specialty: 'Dementia Specialist',
     bio: 'One of the UK\'s most influential voices on dementia care, Prof. June Andrews OBE is an independent specialist whose practical guidance has shaped how families, professionals and care providers support people living with dementia.',
-    extendedBio: 'Professor June Andrews OBE is a nationally recognised dementia specialist, author of Dementia: The One-Stop Guide and former director of the Dementia Services Development Centre at the University of Stirling. She advises families, care providers and institutions across the UK on every aspect of dementia — from early diagnosis and home adaptation to choosing care settings, briefing live-in carers, managing behavioural changes and navigating the legal and financial implications. June\'s independence, clarity and deep practical knowledge make her uniquely placed to help clients and families plan ahead, avoid common pitfalls and secure the best possible quality of life through the journey of dementia.',
+    extendedBio: 'Professor June Andrews OBE is a nationally recognised dementia specialist, author of Dementia: The One-Stop Guide and former director of the Dementia Services Development Centre at the University of Stirling. She advises families, care providers and institutions across the UK on every aspect of dementia - from early diagnosis and home adaptation to choosing care settings, briefing live-in carers, managing behavioural changes and navigating the legal and financial implications. June\'s independence, clarity and deep practical knowledge make her uniquely placed to help clients and families plan ahead, avoid common pitfalls and secure the best possible quality of life through the journey of dementia.',
   },
 ];

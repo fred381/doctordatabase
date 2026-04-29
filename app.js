@@ -1,5 +1,5 @@
 /* ============================================
-   THE LITTLE GREEN BOOK — App
+   THE LITTLE GREEN BOOK - App
    ============================================ */
 
 (function () {
