@@ -101,6 +101,10 @@
     const adv = ADVISERS[index];
     if (!adv) return;
 
+    const referralSubject = `Little Green Book Referral - ${adv.name}`;
+    const referralBody = `Please refer me to ${adv.name} who I found on the little green book.`;
+    const referralHref = `mailto:referral@hamiltongeorgecare.com?subject=${encodeURIComponent(referralSubject)}&body=${encodeURIComponent(referralBody)}`;
+
     modalContent.innerHTML = `
       <div class="modal-header">
         <div class="modal-badge">${badgeSVG} Hamilton George Recommended</div>
@@ -110,7 +114,7 @@
       <div class="modal-body">
         <span class="modal-specialty">${escapeHtml(adv.specialty)}</span>
         <p class="modal-bio">${escapeHtml(adv.extendedBio || adv.bio)}</p>
-        <a href="tel:03304702866" class="modal-contact-cta">
+        <a href="${referralHref}" class="modal-contact-cta">
           Enquire via Hamilton George
           ${arrowSVG}
         </a>
