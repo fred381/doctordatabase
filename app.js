@@ -102,7 +102,7 @@
     if (!adv) return;
 
     const referralSubject = `Little Green Book Referral - ${adv.name}`;
-    const referralBody = `Please refer me to ${adv.name} who I found on the little green book.`;
+    const referralBody = `Request for referral to ${adv.name} - found in the Hamilton George Care,  Little Green Book.\n\nPlease provide your:\n\nName:\nPhone Number:\nAny further relevant information:`;
     const referralHref = `mailto:referral@hamiltongeorgecare.com?subject=${encodeURIComponent(referralSubject)}&body=${encodeURIComponent(referralBody)}`;
 
     modalContent.innerHTML = `
