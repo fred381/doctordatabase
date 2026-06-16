@@ -28,8 +28,8 @@ const ADVISERS = [
     organisation: 'Criswell Medical Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
-    bio: 'A partner at Criswell Medical Practice in Sloane Square, Dr Theo Criswell brings rigorous, evidence-based GP care to clients with complex medical needs and ongoing care arrangements.',
-    extendedBio: 'Dr Theo Criswell practises at Criswell Medical Practice (Sloane Square, SW1W), one of central London\'s longest-established private GP groups. He is valued for his clarity, his thoroughness and his unwavering focus on getting the medical detail right - particularly important when patients are managing several chronic conditions, recovering from hospital stays or relying on professional care. Michael is known for his clear communication with families and carers and his commitment to keeping every aspect of a patient\'s care plan working together.',
+    bio: 'A founding figure at Criswell Medical Practice in Sloane Square, Dr Theo Criswell brings decades of experience as a private family doctor, with a long-standing reputation for supporting patients living with complex, ongoing care needs.',
+    extendedBio: 'Dr Theo Criswell is one of the longest-serving private GPs in central London, based at Sloane Square (SW1W). His enduring relationships with patients - many spanning thirty years or more - are invaluable when continuity of care matters most: managing chronic illness, supporting recovery at home, or navigating the layered needs of someone receiving live-in care. Theo is admired for his old-school continuity of care, willingness to make house calls, and ability to handle the full breadth of medical concerns - from frailty and cognitive change to end-of-life planning - with quiet authority and warmth.',
   },
   {
     name: 'Paul Ettlinger',
@@ -84,8 +84,8 @@ const ADVISERS = [
     organisation: 'Criswell Medical Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
-    bio: 'A founding figure at Criswell Medical Practice in Sloane Square, Dr Michael Criswell brings decades of experience as a private family doctor, with a long-standing reputation for supporting patients living with complex, ongoing care needs.',
-    extendedBio: 'Dr Michael Criswell is one of the longest-serving private GPs in central London, based at Sloane Square (SW1W). His enduring relationships with patients - many spanning thirty years or more - are invaluable when continuity of care matters most: managing chronic illness, supporting recovery at home, or navigating the layered needs of someone receiving live-in care. Michael is admired for his old-school continuity of care, willingness to make house calls, and ability to handle the full breadth of medical concerns - from frailty and cognitive change to end-of-life planning - with quiet authority and warmth.',
+    bio: 'A partner at Criswell Medical Practice in Sloane Square, Dr Michael Criswell brings rigorous, evidence-based GP care to clients with complex medical needs and ongoing care arrangements.',
+    extendedBio: 'Dr Michael Criswell practises at Criswell Medical Practice (Sloane Square, SW1W), one of central London\'s longest-established private GP groups. He is valued for his clarity, his thoroughness and his unwavering focus on getting the medical detail right - particularly important when patients are managing several chronic conditions, recovering from hospital stays or relying on professional care. Michael is known for his clear communication with families and carers and his commitment to keeping every aspect of a patient\'s care plan working together.',
   },
   {
     name: 'Toby Dean',
