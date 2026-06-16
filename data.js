@@ -28,7 +28,7 @@ const ADVISERS = [
     organisation: 'Criswell Medical Practice',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
-    bio: 'A partner at Criswell Medical Practice in Sloane Square, Dr Michael Criswell brings rigorous, evidence-based GP care to clients with complex medical needs and ongoing care arrangements.',
+    bio: 'A partner at Criswell Medical Practice in Sloane Square, Dr Theo Criswell brings rigorous, evidence-based GP care to clients with complex medical needs and ongoing care arrangements.',
     extendedBio: 'Dr Theo Criswell practises at Criswell Medical Practice (Sloane Square, SW1W), one of central London\'s longest-established private GP groups. He is valued for his clarity, his thoroughness and his unwavering focus on getting the medical detail right - particularly important when patients are managing several chronic conditions, recovering from hospital stays or relying on professional care. Michael is known for his clear communication with families and carers and his commitment to keeping every aspect of a patient\'s care plan working together.',
   },
   {
@@ -77,7 +77,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'Dr Lucy Ansell is a founding partner at Linbury Doctors, a small, highly personal private GP service conducting home visits for clients across the Cotswolds.',
-    extendedBio: 'Lucy is known for a traditional, doctor-at-the-door style of medicine that is increasingly rare and especially valued by patients wish to receieve medical treatment in the comfort of their own homes. She combines unhurried home consultations with rigorous medical follow-through - coordinating specialist input, hospital admissions and at-home rehabilitation alongside carers and family - making her an exceptional choice for households seeking dignified, expert and continuous care.',
+    extendedBio: 'Lucy is known for a traditional, doctor-at-the-door style of medicine that is increasingly rare and especially valued by patients who wish to receive medical treatment in the comfort of their own homes. She combines unhurried home consultations with rigorous medical follow-through - coordinating specialist input, hospital admissions and at-home rehabilitation alongside carers and family - making her an exceptional choice for households seeking dignified, expert and continuous care.',
   },
   {
     name: 'Michael Criswell',
@@ -85,7 +85,7 @@ const ADVISERS = [
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
     bio: 'A founding figure at Criswell Medical Practice in Sloane Square, Dr Michael Criswell brings decades of experience as a private family doctor, with a long-standing reputation for supporting patients living with complex, ongoing care needs.',
-    extendedBio: 'Dr Michael Criswell is one of the longest-serving private GPs in central London, based at Sloane Square (SW1W). His enduring relationships with patients - many spanning thirty years or more - are invaluable when continuity of care matters most: managing chronic illness, supporting recovery at home, or navigating the layered needs of someone receiving live-in care. Theo is admired for his old-school continuity of care, willingness to make house calls, and ability to handle the full breadth of medical concerns - from frailty and cognitive change to end-of-life planning - with quiet authority and warmth.',
+    extendedBio: 'Dr Michael Criswell is one of the longest-serving private GPs in central London, based at Sloane Square (SW1W). His enduring relationships with patients - many spanning thirty years or more - are invaluable when continuity of care matters most: managing chronic illness, supporting recovery at home, or navigating the layered needs of someone receiving live-in care. Michael is admired for his old-school continuity of care, willingness to make house calls, and ability to handle the full breadth of medical concerns - from frailty and cognitive change to end-of-life planning - with quiet authority and warmth.',
   },
   {
     name: 'Toby Dean',
@@ -120,7 +120,7 @@ const ADVISERS = [
     extendedBio: 'Dr Lucy Foster founded DR.FSTR a private home-visiting medical practice providing medical care for individuals, families and estates. The practice has enhanced clinical oversight from an in-house Consultant Physician. The practice is deliberately small so that they can offer the highest standard of care, continuity and accessibility, visiting their patients at home 24/7/365. Their work is guided by empathy, discretion, and clinical excellence, with a strong focus on long-term doctor-patient relationships and careful coordination of care.',
   },
   {
-    name: 'Amina Albayetti',
+    name: 'Amina Albeyatti',
     organisation: 'Family Doctor Group',
     category: 'gps-general-practice',
     specialty: 'GPs & General Practice',
@@ -252,7 +252,7 @@ const ADVISERS = [
     organisation: 'Kings College Hospital',
     category: 'neurology',
     specialty: 'Neurology',
-    bio: 'Professor K. Ray Chaudhuri is Director of Research and Clinical Trials at Kings College Hospital, London Dubai .Ex- Professor of Neurology/Movement Disorders at King\'s College Hospital and King\'s College London and Ex-Director of the Parkinson Foundation International Centre of Excellence at King\'s College Hospital in London.',
+    bio: 'Professor K. Ray Chaudhuri is Director of Research and Clinical Trials at Kings College Hospital, London and Dubai. Ex-Professor of Neurology/Movement Disorders at King\'s College Hospital and King\'s College London, and Ex-Director of the Parkinson Foundation International Centre of Excellence at King\'s College Hospital in London.',
     extendedBio: 'He is founder of MDS Nonmotor PD Study group (NMSG), Ex Chairman and now steering group of the Industry Engagement Committee, and Co Chair Task force of the Parkinson Wellness committee of the Movement Disorders Society (MDS) was a member of the MDS Congress Scientific Programme Committee (2013-2017) and is Founder -Editor-in-Chief of the njp Parkinson\'s Disease, and current Editor Front. Aging Neurosci. - Parkinson\'s Disease and Aging-related Movement Disorders and a founder member of Kings Parkinson\'s Charity. He is advisor to NHS England, General Medical Council as well as Parkinson\'s UK and Parkinson\'s Europe. Professor Chaudhuri is the author of over 600 articles (Scopus listed) , with H index > 100, co-editor of 7 books on Parkinson\'s disease and restless legs syndrome, and winner of the British Medical Association Book Awards commendation in 2015 and 2017. He is also the recipient of 2018 Jay Van Andel Award Outstanding Achievement in Parkinson\'s Disease Research (pioneering holistic assessments and non-motor subtypes), as well as National Institute for Health Research/Royal College of Physicians award for outstanding research leadership in 2017. He was elected honorary member of the Movement Disorders Society in 2021, Honorary Professor Brasov University and received the UK NHS Gold merit award in 2021 for excellence in research and clinical service. In 2023 he was featured as "role model" in British Medical Journal. He has been a guest lecturer worldwide, including in Japan, China, Taiwan, Vietnam, Thailand, Singapore, Australia, India, Africa, the US, Russia, and Europe. In 2025 he is ranked within the top 2% of all scientists in the world (Stanford and Elsevier ranking ) and in 2024, an independent review in Frontiers journal by LI et al rated KRC as the one with most publications globally in nonmotor Parkinson\'s since 2013 (Li et al , DOI 10.3389/fnagi.2024.1335550). He is a member of the Parkinson\'s UK project grants College of Experts member and reviewer of USA Congressionally Directed Medical Research Programs (U.S. Army Medical Research Acquisition Activity (USAMRAA) ) and NIH and Middle East grant programmes such as Dubai Health Authority and Saudi Arabia Grants Committee (RDIA grants programme).',
   },
   {
