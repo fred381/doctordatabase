@@ -33,6 +33,11 @@
     return div.innerHTML;
   }
 
+  function headshotHTML(adv, sizeClass) {
+    const file = `headshots/${encodeURIComponent(adv.name)}.jpg`;
+    return `<div class="${sizeClass}"><img src="${file}" alt="${escapeHtml(adv.name)}" loading="lazy" onerror="this.parentElement.classList.add('no-photo'); this.remove();"></div>`;
+  }
+
   // --- Render Category Tabs ---
   function renderCategoryTabs() {
     categoryTabsEl.innerHTML = CATEGORIES.map(cat => `
@@ -84,6 +89,7 @@
 
     cardGrid.innerHTML = filtered.map((adv, i) => `
       <article class="card" style="animation-delay: ${i * 0.05}s">
+        ${headshotHTML(adv, 'card-photo')}
         <div class="card-badge">${badgeSVG} Hamilton George Recommended</div>
         <h3 class="card-name">${escapeHtml(adv.name)}</h3>
         <p class="card-org">${escapeHtml(adv.organisation)}</p>
@@ -107,6 +113,7 @@
 
     modalContent.innerHTML = `
       <div class="modal-header">
+        ${headshotHTML(adv, 'modal-photo')}
         <div class="modal-badge">${badgeSVG} Hamilton George Recommended</div>
         <h2 class="modal-name">${escapeHtml(adv.name)}</h2>
         <p class="modal-org">${escapeHtml(adv.organisation)}</p>
