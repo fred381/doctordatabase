@@ -490,4 +490,12 @@ const ADVISERS = [
     bio: 'Founded in 1994 by Natasha Price as Chancery Lane Physiotherapy, the practice has grown steadily, rebranding as Central Health Physiotherapy in 2005 to reflect its expanding reach and expertise. What began as a commitment to providing exceptional local care has evolved into one of London\'s leading physiotherapy networks, with expert clinicians working across multiple clinics. The team provides specialist physiotherapy for people of all ages and a wide range of conditions, helping patients regain mobility, independence, and confidence.',
     extendedBio: 'Central Health Physiotherapy is trusted by many of London\'s leading surgeons, consultants, and healthcare professionals. Whether someone is recovering from illness, a hip fracture, stroke, surgery, or another condition, the team offers expert rehabilitation either in the comfort of the patient\'s home or at one of its welcoming clinics.',
   },
+  {
+    name: 'Ali Yeo',
+    organisation: 'Six Physio',
+    category: 'exercise-rehab',
+    specialty: 'Physiotherapy',
+    bio: 'Ms Ali Yeo, a clinical specialist physiotherapist at Six Physio, brings over 20 years of experience to treating a diverse range of musculoskeletal conditions. Driven by a philosophy where science meets soul, she is dedicated to her well-known passion for keeping people active, whether they need an operation, have slowed down, been injured or are looking at their longevity, Ali joined Six Physio to launch their bespoke treatment service, offering expert care at homes, offices, gyms, hotels, or even on the padel court.',
+    extendedBio: 'This initiative to see people in their own environment empowers patients to select their preferred treatment location at any stage of their recovery. With a focus on orthopedic, vestibular, and complex musculoskeletal health - alongside neurological support for conditions like Parkinson\'s - Ali has curated an elite team of physiotherapists who share her unwavering commitment to clinical success. Six at Home operates within London\'s most prestigious enclaves, including Chelsea, Fulham, and Fitzrovia, Wandsworth and Wimbledon as well as the medical hubs of Mayfair and Knightsbridge. Renowned for their discretion and expertise, Ali and her team provide bespoke, high-end physiotherapy treatment within the privacy of a patient\'s residence. By collaborating seamlessly with medical consultants, they ensure a sophisticated and integrated recovery journey where medical science meets personalized excellence.',
+  },
 ];
