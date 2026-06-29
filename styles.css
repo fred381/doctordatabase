@@ -757,6 +757,32 @@ input { font-family: inherit; }
   margin-bottom: 24px;
 }
 
+.modal-contact-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.modal-contact-note {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.5;
+  flex: 1;
+  min-width: 200px;
+  margin: 0;
+}
+
+.modal-contact-note a {
+  color: var(--terracotta);
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.modal-contact-note a:hover {
+  color: var(--terracotta-hover);
+}
+
 .modal-contact-cta {
   display: inline-flex;
   align-items: center;
@@ -768,6 +794,7 @@ input { font-family: inherit; }
   font-weight: 600;
   font-size: 0.9rem;
   transition: background var(--transition);
+  flex-shrink: 0;
 }
 
 .modal-contact-cta:hover {

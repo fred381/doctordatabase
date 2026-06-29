@@ -121,10 +121,15 @@
       <div class="modal-body">
         <span class="modal-specialty">${escapeHtml(adv.specialty)}</span>
         <p class="modal-bio">${escapeHtml(adv.extendedBio || adv.bio)}</p>
-        <a href="${referralHref}" class="modal-contact-cta">
-          Enquire via Hamilton George
-          ${arrowSVG}
-        </a>
+        <div class="modal-contact-row">
+          <a href="${referralHref}" class="modal-contact-cta">
+            Enquire via Hamilton George
+            ${arrowSVG}
+          </a>
+          <p class="modal-contact-note">
+            Email us at <a href="${referralHref}">referral@hamiltongeorgecare.com</a>
+          </p>
+        </div>
       </div>
     `;
 
