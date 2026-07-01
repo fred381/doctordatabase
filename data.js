@@ -429,6 +429,14 @@ const ADVISERS = [
     extendedBio: 'He now solely practises privately out of 9 Harley Street and additional clinics in Kent and Essex. He is passionate about patient education through his highly popular YouTube channel, Anthony Ghosh, the UK Spine Guy.',
   },
   {
+    name: 'Jan Herzog',
+    organisation: 'Royal National Orthopaedic Hospital',
+    category: 'surgeons',
+    specialty: 'Spinal Surgeon',
+    bio: 'Mr Jan Herzog is consultant orthopaedic and spinal surgeon with expertise in treating spinal conditions in both adults and children. He specialises in complex paediatric and adult spinal deformities, including scoliosis and kyphosis, as well as degenerative spine conditions.',
+    extendedBio: 'Mr Herzog graduated from Humboldt University Berlin in 2004, before completing an MSc in diagnostic imaging at the University of Oxford. Following this, Mr Herzog began his surgical training in trauma and orthopaedics in Germany before being awarded a visiting fellowship at Massachusetts General Hospital, the teaching hospital to Harvard University in Boston/USA. After completing his training, Mr Herzog was appointed as a trauma and orthopaedic consultant at Charite in Berlin. There he developed his interest in spinal surgery. To pursue this interest, Mr Herzog moved to the UK and completed three spinal fellowships at Frimley Park Hospital, St George\'s Hospital and the Royal National Orthopaedic Hospital in Stanmore where he became a substantive consultant in 2019. Mr Herzog is known for his patient-focused approach, ensuring patients are fully informed and involved in decisions about their care. With his background in international rowing as both an athlete and team doctor, Mr Herzog has a particular interest in spinal conditions affecting athletes. He performs a wide range of spinal procedures including microdiscectomy, spinal decompression, spinal fusion, vertebroplasty, kyphoplasty and corrective surgery for scoliosis and kyphosis. Mr Herzog\'s practice is focused on delivering precise, evidence-based surgical care that puts an emphasis on improving function and quality of life. Alongside his clinical work Mr Herzog is actively involved in research into scoliosis, spinal myeloma and spinal navigation and robotics. He is on the GMC\'s specialist register for trauma and orthopaedic surgery and is a member of the British scoliosis Society and the "Deutsche Wirbelsaulengesellschaft".',
+  },
+  {
     name: 'Ryan Chin Taw Cheong BSc(Hons) MBBS AICSM MRCS(ENT) MSc FRCS(ORL-HNS)',
     organisation: 'Cleveland Clinic',
     category: 'ear-nose-throat',
