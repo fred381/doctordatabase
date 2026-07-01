@@ -8,6 +8,7 @@ const CATEGORIES = [
   { id: 'private-doctors-surgeons', label: 'Private Doctors & Surgeons' },
   { id: 'dentists', label: 'Dentists' },
   { id: 'dermatologists', label: 'Dermatologists' },
+  { id: 'neurology', label: 'Neurology' },
   { id: 'surgery', label: 'Surgery' },
   { id: 'rheumatology', label: 'Rheumatology' },
   { id: 'ophthalmology', label: 'Ophthalmology' },
@@ -183,6 +184,14 @@ const ADVISERS = [
     specialty: 'Private Doctors & Surgeons',
     bio: 'A leading specialist in private medicine, Inaki Bovill is highly regarded by patients and peers across the UK. His innovative clinical approach and dedication to patient welfare set him apart in private healthcare.',
     extendedBio: 'Dr Inaki Bovill is a talented and dedicated medical professional whose innovative approach to clinical care has earned him a growing reputation among discerning patients. He combines a deep understanding of modern medical practice with a compassionate, personalised approach to every consultation. Inaki is known for his enthusiasm, his attention to detail, and his genuine commitment to ensuring every patient receives care that is both clinically excellent and deeply reassuring.',
+  },
+  {
+    name: 'Dr David Choluj',
+    organisation: 'London Neurology Clinic — Harley Street, London',
+    category: 'neurology',
+    specialty: 'Neurology',
+    bio: 'Dr David Choluj is the CEO and Medical Director of the London Neurology Clinic on Harley Street, in London\'s world-renowned medical district — the first clinic outside the United States to receive the American Academy of Neurology\'s Neurology Practice Award.',
+    extendedBio: 'Dr David Choluj is the CEO and Medical Director of the London Neurology Clinic on Harley Street, in London\'s world-renowned medical district. The London Neurology Clinic received the 2026 Neurology Practice Award from the American Academy of Neurology (AAN) — the world\'s largest professional organisation for neurologists — becoming the first clinic outside the United States to receive this prestigious distinction. Dr Choluj has gained extensive clinical experience at leading neurological centres, including Addenbrooke\'s Hospital in Cambridge, the Royal London Hospital, and the Royal Hospital for Neuro-disability in London. In addition to neurology, his expertise encompasses stroke medicine, neurological rehabilitation, and the management of complex neurological disabilities, with a strong emphasis on improving long-term patient outcomes and quality of life. He diagnoses and treats a wide range of neurological conditions, including headache disorders, dementia, epilepsy, stroke, multiple sclerosis, Parkinson\'s disease, and peripheral nerve disorders. He also has specialist expertise in the management of prolonged disorders of consciousness (PDOC), spasticity, cognitive disorders, and complex neurological disabilities. Known for his thorough, evidence-based, and patient-centred approach, Dr Choluj combines clinical excellence with multidisciplinary expertise to deliver highly personalised care tailored to each patient\'s individual needs.',
   },
   {
     name: 'Mr Anthony Ghosh',
