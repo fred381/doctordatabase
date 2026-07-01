@@ -261,6 +261,14 @@ const ADVISERS = [
     extendedBio: 'His style of care is grounded in careful assessment, sound judgement and close attention to the individual needs of each patient. Alongside his broad clinical experience, he offers the added benefit of a long-established professional network, enabling him to make carefully chosen specialist referrals where needed and support patients with joined-up, thoughtful care beyond the initial consultation.',
   },
   {
+    name: 'Amun Kalia',
+    organisation: 'The Barnes Doctors',
+    category: 'gps-general-practice',
+    specialty: 'GPs & General Practice',
+    bio: 'Dr Amun Kalia is the founding doctor and owner of The Barnes Doctors.',
+    extendedBio: 'Dr Kalia is the founding doctor and owner of a comprehensive independent multi-disciplinary healthcare facility operating exclusively from the heart of Barnes, London, SW13. Dr Kalia lives locally with his family within the community he serves and is a friendly, well respected, and highly knowledgeable London-trained General Practitioner. He was educated locally at St Paul\'s School for boys, before beginning his medical training at the University of Manchester and University College London. Dr Kalia is passionate about providing the best care possible to his patients. When not consulting at The Barnes Doctors, Dr Kalia is the Head of Occupational Medicine for a city-based firm and is a company doctor for one of the largest multi-national companies based in the UK. When not at work he enjoys spending time with his family, travel and cooking.',
+  },
+  {
     name: 'John O\'Dwyer',
     organisation: 'Mayo Clinic Healthcare London / HCA Healthcare',
     category: 'neurology',
