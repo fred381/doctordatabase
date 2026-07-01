@@ -8,6 +8,11 @@ const CATEGORIES = [
   { id: 'private-doctors-surgeons', label: 'Private Doctors & Surgeons' },
   { id: 'dentists', label: 'Dentists' },
   { id: 'dermatologists', label: 'Dermatologists' },
+  { id: 'surgery', label: 'Surgery' },
+  { id: 'rheumatology', label: 'Rheumatology' },
+  { id: 'ophthalmology', label: 'Ophthalmology' },
+  { id: 'retirement-living', label: 'Retirement Living' },
+  { id: 'care-nursing-homes', label: 'Care & Nursing Homes' },
 ];
 
 const ADVISERS = [
@@ -178,5 +183,45 @@ const ADVISERS = [
     specialty: 'Private Doctors & Surgeons',
     bio: 'A leading specialist in private medicine, Inaki Bovill is highly regarded by patients and peers across the UK. His innovative clinical approach and dedication to patient welfare set him apart in private healthcare.',
     extendedBio: 'Dr Inaki Bovill is a talented and dedicated medical professional whose innovative approach to clinical care has earned him a growing reputation among discerning patients. He combines a deep understanding of modern medical practice with a compassionate, personalised approach to every consultation. Inaki is known for his enthusiasm, his attention to detail, and his genuine commitment to ensuring every patient receives care that is both clinically excellent and deeply reassuring.',
+  },
+  {
+    name: 'Mr Anthony Ghosh',
+    organisation: 'The Spine MDT — London, Kent & Essex',
+    category: 'surgery',
+    specialty: 'Surgery — Spinal Neurosurgeon',
+    bio: 'A consultant spinal neurosurgeon and a leading UK authority in spine care, Mr Anthony Ghosh (MBChB, MD, FRCS) leads a multidisciplinary network of clinicians to take full responsibility for every aspect of his patients\' spine care.',
+    extendedBio: 'Anthony Ghosh is a consultant spinal neurosurgeon and a leading UK authority in spine care. He works with a wide network of leading clinicians, including physiotherapists, osteopaths, pain specialists, and rheumatologists, whom he leads to take full responsibility and help manage all the aspects of spine care. When surgery is required, he is highly trained in minimally invasive techniques. He now solely practises privately out of 9 Harley Street and additional clinics in Kent and Essex. He is passionate about patient education through his highly popular YouTube channel, Anthony Ghosh, the UK Spine Guy.',
+  },
+  {
+    name: 'Dr Nora Ng',
+    organisation: 'Fortius Clinic — London',
+    category: 'rheumatology',
+    specialty: 'Rheumatology',
+    bio: 'Dr Nora Ng is a top private Consultant Rheumatologist in London, with an NHS practice at Guy\'s and St Thomas\' Hospital as part of its comprehensive fibromyalgia clinic.',
+    extendedBio: 'Dr Nora Ng is a top private Consultant Rheumatologist in London. Her NHS practice is at Guy\'s and St. Thomas\' Hospital, where she is part of the unique and comprehensive fibromyalgia clinic. She graduated from the University of Nottingham Medical School in 2003 and completed her subspecialist rheumatology training in London. During this time, she worked at numerous leading London teaching hospitals including Imperial College hospitals, The Royal London and University College Hospital. She maintains a strong interest in research, especially in the area of ultrasound in inflammatory arthritis and has also undertaken an MD in this area. She has presented her research work at national and international conferences.',
+  },
+  {
+    name: 'Mr Robin D Hamilton',
+    organisation: 'Moorfields Eye Hospital — London',
+    category: 'ophthalmology',
+    specialty: 'Ophthalmology — Medical Retina & Cataract',
+    bio: 'Mr Robin Hamilton (MB BS, DM(dist), FRCOphth) is a Consultant Ophthalmologist in the Medical Retina and Cataract Services at Moorfields Eye Hospital, London, and Medical Director for Service and Transformation.',
+    extendedBio: 'Mr Robin Hamilton is a Consultant Ophthalmologist in the Medical Retina and Cataract Services at Moorfields Eye Hospital, London. He received his medical degree from St Mary\'s Hospital, Paddington. He gained a Doctor of Medicine degree with distinction at Nottingham University. He performed his ophthalmic residency, Uveitis and Medical Retina fellowships at Moorfields Eye Hospital. He is currently the Medical Director for Service and Transformation, having led the Medical Retina Department at Moorfields for 6 years. His main interests include novel therapies for treatment of Age related macular degeneration and diabetic retinopathy, in particular Anti-VEGF therapies and lasers. He has been involved in a number of trials examining these approaches and published over 100 peer reviewed articles. His surgical interests include standard and complicated cataract surgery with extended depth of focus and multifocal intraocular lenses. In over 20 years at Moorfields, with over 40 national and international trainees attending each year, he has numerous connections both nationally and internationally.',
+  },
+  {
+    name: 'Dr Zoe Wyrko',
+    organisation: 'Riverstone Living — London',
+    category: 'retirement-living',
+    specialty: 'Retirement Living',
+    bio: 'An experienced Geriatrician, Dr Zoe Wyrko is now Wellbeing and Quality Director at Riverstone Living, London\'s luxury retirement living operator.',
+    extendedBio: 'An experienced Geriatrician, Dr Zoe Wyrko is now Wellbeing and Quality Director at Riverstone Living, London\'s luxury retirement living operator. Riverstone knows that health is wealth, approached with intelligence, discretion and choice. Expect personalised wellbeing support, including a dedicated health concierge, programmes designed for brain and physical strength, and access to a private GP. Live well for longer, on your terms.',
+  },
+  {
+    name: 'Nuno Santos Lopes',
+    organisation: 'KYN Hurlingham — Fulham, London',
+    category: 'care-nursing-homes',
+    specialty: 'Care & Nursing Homes',
+    bio: 'Mr Nuno Santos Lopes is the Director of Care and Home Manager for KYN Hurlingham, which provides residential, nursing and respite care in Fulham, and is known for his belief that great care starts with human connection.',
+    extendedBio: 'Mr Nuno Santos Lopes is the Director of Care and Home Manager for KYN Hurlingham, which provides residential, nursing and respite care in Fulham. Nuno is known for his belief that great care starts with human connection. Throughout his career, he has championed dignity, compassion, teamwork and continuous learning, always striving to make a positive difference in the lives of residents, families and care professionals alike. He leads an exceptional in-house team of 24/7 carers and nurses, with physio services, and an elevated approach to holistic wellbeing and cultured life enrichment at KYN Hurlingham. With a background in palliative care, dementia care and care home leadership, he has built a reputation for creating cultures where residents, families and colleagues feel supported, respected and empowered. He is particularly passionate about education, research and sharing best practice across the care sector, having led international programmes connecting care professionals in more than 20 countries.',
   },
 ];
