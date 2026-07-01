@@ -8,6 +8,7 @@ const CATEGORIES = [
   { id: 'gps-general-practice', label: 'GPs & General Practice' },
   { id: 'neurology', label: 'Neurology' },
   { id: 'oncology', label: 'Oncology' },
+  { id: 'rheumatology', label: 'Rheumatology' },
   { id: 'geriatric-medicine', label: 'Geriatric Medicine' },
   { id: 'dementia-specialist', label: 'Dementia Specialist' },
   { id: 'surgeons', label: 'Surgeons' },
@@ -15,6 +16,7 @@ const CATEGORIES = [
   { id: 'ophthalmology', label: 'Ophthalmology' },
   { id: 'psychiatry', label: 'Psychiatry' },
   { id: 'exercise-rehab', label: 'Exercise and Rehabilitation' },
+  { id: 'residential', label: 'Residential Care' },
 ];
 
 const ADVISERS = [
@@ -311,16 +313,8 @@ const ADVISERS = [
     organisation: 'London Neurology Clinic',
     category: 'neurology',
     specialty: 'Neurology',
-    bio: 'Dr David Choluj is a Consultant Neurologist and Medical Director of London Neurology Clinic, the first UK and first neurology practice outside the United States to receive the American Academy of Neurology (AAN) Neurology Practice Award. He specialises in cognitive disorders, headache disorders and migraine, Parkinson\'s disease, and other complex neurological conditions affecting older adults.',
-    extendedBio: 'Known for his thorough and compassionate approach, David provides expert diagnostic assessments, second opinions and ongoing neurological care. He works closely with families, private GPs, therapists and care teams to coordinate bespoke care plans that support independence, wellbeing and quality of life.',
-  },
-  {
-    name: 'Professor K Ray Chaudhuri',
-    organisation: 'Kings College Hospital',
-    category: 'neurology',
-    specialty: 'Neurology',
-    bio: 'Professor K. Ray Chaudhuri is Director of Research and Clinical Trials at Kings College Hospital, London and Dubai. Ex-Professor of Neurology/Movement Disorders at King\'s College Hospital and King\'s College London, and Ex-Director of the Parkinson Foundation International Centre of Excellence at King\'s College Hospital in London.',
-    extendedBio: 'He is founder of MDS Nonmotor PD Study group (NMSG), Ex Chairman and now steering group of the Industry Engagement Committee, and Co Chair Task force of the Parkinson Wellness committee of the Movement Disorders Society (MDS) was a member of the MDS Congress Scientific Programme Committee (2013-2017) and is Founder -Editor-in-Chief of the njp Parkinson\'s Disease, and current Editor Front. Aging Neurosci. - Parkinson\'s Disease and Aging-related Movement Disorders and a founder member of Kings Parkinson\'s Charity. He is advisor to NHS England, General Medical Council as well as Parkinson\'s UK and Parkinson\'s Europe. Professor Chaudhuri is the author of over 600 articles (Scopus listed) , with H index > 100, co-editor of 7 books on Parkinson\'s disease and restless legs syndrome, and winner of the British Medical Association Book Awards commendation in 2015 and 2017. He is also the recipient of 2018 Jay Van Andel Award Outstanding Achievement in Parkinson\'s Disease Research (pioneering holistic assessments and non-motor subtypes), as well as National Institute for Health Research/Royal College of Physicians award for outstanding research leadership in 2017. He was elected honorary member of the Movement Disorders Society in 2021, Honorary Professor Brasov University and received the UK NHS Gold merit award in 2021 for excellence in research and clinical service. In 2023 he was featured as "role model" in British Medical Journal. He has been a guest lecturer worldwide, including in Japan, China, Taiwan, Vietnam, Thailand, Singapore, Australia, India, Africa, the US, Russia, and Europe. In 2025 he is ranked within the top 2% of all scientists in the world (Stanford and Elsevier ranking ) and in 2024, an independent review in Frontiers journal by LI et al rated KRC as the one with most publications globally in nonmotor Parkinson\'s since 2013 (Li et al , DOI 10.3389/fnagi.2024.1335550). He is a member of the Parkinson\'s UK project grants College of Experts member and reviewer of USA Congressionally Directed Medical Research Programs (U.S. Army Medical Research Acquisition Activity (USAMRAA) ) and NIH and Middle East grant programmes such as Dubai Health Authority and Saudi Arabia Grants Committee (RDIA grants programme).',
+    bio: 'Dr David Choluj is the CEO and Medical Director of the London Neurology Clinic on Harley Street, in London\'s world-renowned medical district.',
+    extendedBio: 'The London Neurology Clinic received the 2026 Neurology Practice Award from the American Academy of Neurology (AAN) - the world\'s largest professional organisation for neurologists - becoming the first clinic outside the United States to receive this prestigious distinction. Dr Choluj has gained extensive clinical experience at leading neurological centres, including Addenbrooke\'s Hospital in Cambridge, the Royal London Hospital, and the Royal Hospital for Neuro-disability in London. In addition to neurology, his expertise encompasses stroke medicine, neurological rehabilitation, and the management of complex neurological disabilities, with a strong emphasis on improving long-term patient outcomes and quality of life. He diagnoses and treats a wide range of neurological conditions, including headache disorders, dementia, epilepsy, stroke, multiple sclerosis, Parkinson\'s disease, and peripheral nerve disorders. He also has specialist expertise in the management of prolonged disorders of consciousness (PDOC), spasticity, cognitive disorders, and complex neurological disabilities. Known for his thorough, evidence-based, and patient-centred approach, Dr Choluj combines clinical excellence with multidisciplinary expertise to deliver highly personalised care tailored to each patient\'s individual needs.',
   },
   {
     name: 'Richard Perry',
@@ -345,6 +339,14 @@ const ADVISERS = [
     specialty: 'Oncology',
     bio: 'Dr Alex Georgiou is a Consultant Medical Oncologist at Guy\'s and St Thomas\' NHS Hospital (GSTT) and King\'s College Hospitals London, UK. His private practice is based at HCA London. He specialises in the treatment of thoracic malignancies: lung cancer, mesothelioma and thymic cancers. He is the UK chief investigator and principal investigator at GSTT in multiple international clinical trials investigating novel treatments for lung cancer and mesothelioma. He is also an honorary senior lecturer at King\'s College London (KCL) and leads on academic research at KCL and GSTT aiming to improve the early diagnosis, treatment, and outcomes for lung cancer patients.',
     extendedBio: 'Dr Georgiou currently serves as the clinical service lead for all Systemic Anti-Cancer Therapies (SACT) and the lung cancer and mesothelioma clinical trials lead at GSTT. He completed his medical oncology training at the Royal Marsden Hospital in London, 2012-2019. During his training he secured competitive Cancer Research UK (CRUK) funding, which supported his successful three-year PhD (2015-2018) at the Institute of Cancer Research (ICR) London. His doctoral research explored the mechanisms of resistance to targeted anti-cancer therapies, earning him a Merit award from the European Society of Medical Oncology Congress (ESMO) in 2018 and a University of London scholarship in 2019. He has an extensive publication record in oncology and in particular lung cancer and has been invited to speak at both national and international oncology conferences. Additionally, he provides clinical advice to \'EGFR Positive UK\', a UK lung cancer charity.',
+  },
+  {
+    name: 'Nora Ng',
+    organisation: 'Fortius Clinic',
+    category: 'rheumatology',
+    specialty: 'Rheumatology',
+    bio: 'Dr Nora Ng is a top private Consultant Rheumatologist in London. Her NHS practice is at Guy\'s and St. Thomas\' Hospital, where she is part of the unique and comprehensive fibromyalgia clinic. She graduated from the University of Nottingham Medical School in 2003 and completed her subspecialist rheumatology training in London. During this time, she worked at numerous leading London teaching hospitals including Imperial College hospitals, The Royal London and University College Hospital.',
+    extendedBio: 'She maintains a strong interest in research, especially in the area of ultrasound in inflammatory arthritis and has also undertaken an MD in this area. She has presented her research work at national and international conferences.',
   },
   {
     name: 'Prashanth Reddy',
@@ -419,6 +421,14 @@ const ADVISERS = [
     extendedBio: 'His specialist areas of practice include the deep plane facelift, deep neck lift, lateral brow lift, lip lift, eyelid rejuvenation, facial fat grafting and adjunctive skin resurfacing. He also has a specialist interest in ultrasonic rhinoplasty, bringing the same principles of precision, balance and facial harmony to nasal surgery. Mr Yapa\'s philosophy is that excellent facial aesthetic surgery should be bespoke, anatomically precise and beautifully natural. His approach is grounded in a detailed understanding of facial anatomy, ageing and soft tissue behaviour, allowing him to tailor each procedure to the individual patient rather than offering a one-size-fits-all solution. Patients value his calm manner, honest advice and meticulous attention to detail, as well as his commitment to achieving results that look refreshed, elegant and believable. Mr Yapa graduated from the University of Cambridge and completed a PhD through Stanford University and King\'s College London. His doctoral research focused on the behaviour of adult stem cells in fat, reflecting a longstanding academic interest in tissue biology, healing and regenerative science. He developed an early interest in plastic surgery during placements at Harvard University and Massachusetts General Hospital in Boston, and has since undertaken further advanced training in London, Paris and the United States, with particular focus on modern facelift, neck lift and rhinoplasty techniques. He is a Fellow of the Royal College of Surgeons, FRCS (Plast), and is on the GMC Specialist Register for Plastic Surgery. He is also a member of BAAPS, BAPRAS, ISAPS and ASPS. Alongside private practice, Mr Yapa is a Consultant Plastic Surgeon at Imperial College Healthcare NHS Trust, where his reconstructive and trauma experience underpins his aesthetic work with precision, sound judgement and a strong commitment to patient safety. He has published more than 30 peer-reviewed articles and has received the Best Investigator Award at meetings of the American Society of Plastic Surgeons and the American Society of Maxillofacial Surgeons. Mr Yapa practises privately at The Lindo Wing, St Mary\'s Hospital, St John & St Elizabeth Hospital, and from his consulting rooms on Harley Street. He also featured in the Channel 4 documentary Emergency, which highlighted the work of plastic surgeons within London\'s major trauma network',
   },
   {
+    name: 'Anthony Ghosh MBChB, MD, FRCS',
+    organisation: 'The Spine MDT',
+    category: 'surgeons',
+    specialty: 'Spinal Neurosurgeon',
+    bio: 'Anthony Ghosh is a consultant spinal neurosurgeon and a leading UK authority in spine care. He works with a wide network of leading clinicians, including physiotherapists, osteopaths, pain specialists, and rheumatologists, whom he leads to take full responsibility and help manage all the aspects of spine care. When surgery is required, he is highly trained in minimally invasive techniques.',
+    extendedBio: 'He now solely practises privately out of 9 Harley Street and additional clinics in Kent and Essex. He is passionate about patient education through his highly popular YouTube channel, Anthony Ghosh, the UK Spine Guy.',
+  },
+  {
     name: 'Ryan Chin Taw Cheong BSc(Hons) MBBS AICSM MRCS(ENT) MSc FRCS(ORL-HNS)',
     organisation: 'Cleveland Clinic',
     category: 'ear-nose-throat',
@@ -441,6 +451,14 @@ const ADVISERS = [
     specialty: 'Ophthalmology',
     bio: 'Ms Sharon Heng is a multi lingual consultant ophthalmic surgeon practicing privately at The London Clinic Eye Center and Moorfields Private. Her NHS practice at the world renowned Moorfields Eye Hospital. She is a specialist in medical retina diseases and the Clinical Lead of the Medical Retina Digital Clinics at Moorfields Eye Hospital and the Lead of the Northwest Diabetic Retinopathy Screening Program at Ealing Moorfields. Ms Heng has been practicing Ophthalmology in excess of 15 years. She is an expert in medical retina diseases, such as age related macular degeneration, diabetic retinopathy, cataracts and complex cataracts.',
     extendedBio: 'Ms Heng believes strongly in training the next generation of ophthalmologists and allied health professionals and is actively involved in developing teaching modules and programs for education within the NHS and beyond. She has travelled to China to assist in developing education programs for the local doctors. Ms Heng is also supervisor to several masters students at the Institute of Ophthalmology, UCL. She has also co-chaired several pan-london fellows and allied health professionals teaching courses. Other than teaching, Ms Heng is also active in research and is chief investigator of several clinical studies looking at equality within digital clinics and treatment in Age Related Macular Degeneration. Ms Heng is also contributor to a book that is now distributed to healthcare professionals in UK and Europe \'Biomarkers in Diabetic Macular Oedema\' Ms Heng practices personalised and precision medicine, utilizing advancements in imaging modality to tailor treatment suitable to individual patients. She ensures patients understands their disease and receives the best advice and bespoke short and longer term treatment plans tailored to their individual disease profile and needs. She speaks fluent English, Mandarin and understands Cantonese and Hokkien.',
+  },
+  {
+    name: 'Robin D Hamilton MB BS, DM(dist), FRCOphth',
+    organisation: 'Moorfields Eye Hospital',
+    category: 'ophthalmology',
+    specialty: 'Ophthalmology',
+    bio: 'Mr Robin Hamilton is a Consultant Ophthalmologist in the Medical Retina and Cataract Services at Moorfields Eye Hospital, London. He received his medical degree from St Mary\'s Hospital, Paddington. He gained a Doctor of Medicine degree with distinction at Nottingham University. He performed his ophthalmic residency, Uveitis and Medical Retina fellowships at Moorfields eye hospital.',
+    extendedBio: 'He is currently the Medical Director for Service and Transformation, having led the Medical Retina Department at Moorfields for 6 years. His main interests include novel therapies for treatment for Age related macular degeneration and diabetic retinopathy, in particular Anti-VEGF therapies and lasers. He has been involved in a number of trials examining these approaches and published over 100 peer reviewed articles. His surgical interests include standard and complicated cataract surgery with extended depth of focus and multifocal intraocular lenses. In over 20 years at Moorfields, with over 40 national and international trainees attending each year, he has numerous connections both nationally and internationally.',
   },
   {
     name: 'Sarah Alsawy-Davies',
@@ -497,5 +515,21 @@ const ADVISERS = [
     specialty: 'Physiotherapy',
     bio: 'Ms Ali Yeo, a clinical specialist physiotherapist at Six Physio, brings over 20 years of experience to treating a diverse range of musculoskeletal conditions. Driven by a philosophy where science meets soul, she is dedicated to her well-known passion for keeping people active, whether they need an operation, have slowed down, been injured or are looking at their longevity, Ali joined Six Physio to launch their bespoke treatment service, offering expert care at homes, offices, gyms, hotels, or even on the padel court.',
     extendedBio: 'This initiative to see people in their own environment empowers patients to select their preferred treatment location at any stage of their recovery. With a focus on orthopedic, vestibular, and complex musculoskeletal health - alongside neurological support for conditions like Parkinson\'s - Ali has curated an elite team of physiotherapists who share her unwavering commitment to clinical success. Six at Home operates within London\'s most prestigious enclaves, including Chelsea, Fulham, and Fitzrovia, Wandsworth and Wimbledon as well as the medical hubs of Mayfair and Knightsbridge. Renowned for their discretion and expertise, Ali and her team provide bespoke, high-end physiotherapy treatment within the privacy of a patient\'s residence. By collaborating seamlessly with medical consultants, they ensure a sophisticated and integrated recovery journey where medical science meets personalized excellence.',
+  },
+  {
+    name: 'Zoe Wyrko',
+    organisation: 'Riverstone Living',
+    category: 'residential',
+    specialty: 'Retirement Living',
+    bio: 'An experienced Geriatrician, Dr Zoe Wyrko is now Wellbeing and Quality Director at Riverstone Living, London\'s luxury retirement living operator.',
+    extendedBio: 'Riverstone knows that health is wealth, approached with intelligence, discretion and choice. Expect personalised wellbeing support, including a dedicated health concierge, programmes designed for brain and physical strength, and access to a private GP. Live well for longer, on your terms.',
+  },
+  {
+    name: 'Nuno Santos Lopes',
+    organisation: 'KYN',
+    category: 'residential',
+    specialty: 'Care and Nursing Homes',
+    bio: 'Mr Nuno Santos Lopes is the Director of Care and Home Manager for KYN Hurlingham, which provides residential, nursing and respite care in Fulham. Nuno is known for his belief that great care starts with human connection. Throughout his career, he has championed dignity, compassion, teamwork and continuous learning, always striving to make a positive difference in the lives of residents, families and care professionals alike. He leads an exceptional in-house team of 24/7 carers and nurses, with physio services, and an elevated approach to holistic wellbeing and cultured life enrichment at KYN Hurlingham',
+    extendedBio: 'With a background in palliative care, dementia care and care home leadership, he has built a reputation for creating cultures where residents, families and colleagues feel supported, respected and empowered. He is particularly passionate about education, research and sharing best practice across the care sector, having led international programmes connecting care professionals in more than 20 countries.',
   },
 ];
